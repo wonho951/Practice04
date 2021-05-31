@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Ex07 {
 
 	public static void main(String[] args) {
+		
 		// 문제7
-
 		
 		Scanner sc = new Scanner(System.in);
 		
