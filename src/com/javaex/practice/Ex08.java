@@ -9,7 +9,7 @@ public class Ex08 {
 		int[] num = new int[6];    // 방 6개 줌.
 		
 		for (int i = 0; i < num.length; i++) {
-			num[i] = (int)(Math.random()*45+1);       //num은 1~45까지의 랜덤값을 가짐.
+			num[i] = (int)(Math.random()*4+1);       //num은 1~45까지의 랜덤값을 가짐.
 			
 			for (int j = 0; j<i; j++) {				
 				if (num[i] == num[j]) {					// 위의 i값과 j값을 비교했을때
@@ -21,7 +21,7 @@ public class Ex08 {
 		for(int i = 0; i < num.length; i++)
 			System.out.print(num[i] + " ");
 		
-				
+			
 		
 		
 	}
